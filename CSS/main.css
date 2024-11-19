@@ -23,13 +23,13 @@
     width: 90px;
     height: 90px;
     margin-bottom: 25px;
-    margin-left: 25px;; /* Adjust size to your preference */
-    border-radius: 50%; /* Makes the container a perfect circle */
-    background-color: #e0e0e0; /* Set the background color of the circle */
+    margin-left: 25px;; 
+    border-radius: 50%; 
+    background-color: #e0e0e0; 
     display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Centers the content vertically */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow effect */
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -40,7 +40,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     min-height: 100vh;
     padding-top: 3%;
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-y: auto; 
 }
 
 /* Body light or darker themes */
@@ -139,7 +139,7 @@ body {
     max-width: 600px;
   }
   
-  /* Animation */
+  
 #title {
     animation: animated-text 2s steps(16,end) 0.5s 1 normal both,
         animated-cursor 750ms steps(16,end) infinite;
@@ -182,7 +182,6 @@ form input {
     font-size: 22px;
     border: none;
     outline: none;
-    /* border-radius: 15; */
     border-top-left-radius: 17px;
     border-bottom-left-radius: 17px;
     max-width: 600px;
@@ -262,7 +261,7 @@ button.standard-button:hover {
 }
 
 button.light-button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(207, 207, 207);
     color: #1a150e;
 }
 
@@ -298,15 +297,12 @@ form button {
 
 .todo-list {
     min-width: 25%;
-
-    /* To remove the bullets of unordered list */
     list-style: none;
 }
 
 .todo {
     margin: 1rem;
-    /* background: rgb(247, 226, 223); */
-    /* color: black; */
+
     font-size: 19px;
     display: flex;
     justify-content: space-between;
@@ -340,13 +336,12 @@ form button {
 
 .todo li{
     padding: 7px;
-    /* word-wrap: break-word; */
-    /* flex-wrap: wrap; */
+    
     font-size: 20px;
-    flex: 1; /* To push the trash and the check button to the right */
+    flex: 1; 
     border-radius: 30px;
-
-    /* wraps the links */
+    margin-left: 10px;
+    margin-right: 10px;
     overflow-wrap: anywhere;
 }
 
@@ -386,6 +381,20 @@ form button {
         align-self: unset;
         margin-right: 0;
     }
+    #github-logo {
+        width: 70px; 
+        height: 70px;
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .circle-background {
+        width: 70px; 
+        height: 70px;
+        left: 15px;
+        bottom: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -401,6 +410,20 @@ form button {
         margin-top: 30px;
         max-width: 330px;
     }
+    #github-logo {
+        width: 60px;
+        height: 60px;
+        left: 12px;
+        bottom: 12px;
+    }
+
+    .circle-background {
+        width: 60px;
+        height: 60px;
+        left: 12px;
+        bottom: 12px;
+    }
+    
 }
 
 @media only screen and (max-width: 400px) {
@@ -412,11 +435,22 @@ form button {
         animation: 
             animated-text 3.5s steps(16,end) 0.5s 1 normal both,
             animated-cursor 750ms steps(16,end) infinite;
-        max-width: 255px;
+        max-width: 277px;
     }
-}
+    #github-logo {
+        width: 60px; 
+        height: 60px;
+        left: 7px; 
+        bottom: 7px;
+    }
 
-@media only screen and (max-width: 400px) {
+    .circle-background {
+        width: 60px; 
+        height: 60px;
+        left: 7px; 
+        bottom: 7px;
+    }
+    
     form {
         align-items: center;
         flex-direction: column;
