@@ -182,7 +182,6 @@ function changeTheme(color) {
         : document.getElementById('title').classList.remove('darker-title');
 
     document.querySelector('input').className = `${color}-input`;
-    // Change todo color without changing their status (completed or not):
     document.querySelectorAll('.todo').forEach(todo => {
         Array.from(todo.classList).some(item => item === 'completed') ? 
             todo.className = `todo ${color}-todo completed`
