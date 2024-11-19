@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#062e3f">
-    <meta name="Description" content="A dynamic and aesthetic To-Do List WebApp.">
+    <meta name="Description" content="A dynamic To-Do List WebApp.">
 
-    <!-- Google Font: Work Sans -->
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/corner.css">
-    <title>JUST DO IT</title>
+    <link rel="icon" href="icons8-tick-48.png" type="image/png">
+
+    <title>To-Do List!</title>
 
     <!-- Include Lottie Player -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
@@ -49,15 +48,12 @@
         <div class="logo-container">
             <div class="circle-background">
             <!-- Anchor tag to wrap the Lottie animation -->
-            <a href="https://github.com" target="_blank" id="github-link">
+            <a href="https://github.com/Nayansai/To-Do-list" target="_blank" id="github-link">
                 <div id="github-logo"></div>
             </a>
             </div>
         </div>
     </div>
-
-
-
 
     <div id="myUnOrdList">
         <ul class="todo-list">
@@ -66,16 +62,16 @@
     </div>
 
     <script>
-        // Load and render the JSON animation (GitHub Logo)
+        // Load the JSON animation
         const animation = lottie.loadAnimation({
-            container: document.getElementById('github-logo'), // The container for the animation
-            renderer: 'svg', // Render as SVG
-            loop: true, // Loop the animation
-            autoplay: true, // Autoplay the animation
-            path: 'icons8-github.json' // Path to the JSON animation file
+            container: document.getElementById('github-logo'), 
+            renderer: 'svg',
+            loop: true, 
+            autoplay: true, 
+            path: 'icons8-github.json' 
         });
     
-        // Optional: Add a tooltip or interactivity when hovering over the logo
+        // text when hovering over the logo
         const githubLink = document.getElementById('github-link');
         githubLink.title = "Visit GitHub!";
     </script>
