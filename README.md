@@ -2,6 +2,13 @@
 
 This repository hosts a **Todo App** featuring a modern, interactive design with functionalities for task management, dynamic themes, and a real-time date and time display. The project highlights responsive design, smooth animations, and local storage integration.
 
+
+![Screenshot 2024-11-30 190807](https://github.com/user-attachments/assets/e2d30621-2acc-4a35-8487-edb6e90f6428)
+![Screenshot 2024-11-30 190820](https://github.com/user-attachments/assets/6836154f-c68d-443c-84c7-37c27cd615a1)
+![Screenshot 2024-11-30 190736](https://github.com/user-attachments/assets/4f1f6e1d-fa73-4c2f-aaa2-4369e0515b74)
+
+
+
 ## Features
 
 - **Dynamic Theme Selector**: Toggle between `Standard`, `Light`, and `Darker` themes with saved preferences.
