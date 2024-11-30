@@ -35,3 +35,5 @@ This repository hosts a **Todo App** featuring a modern, interactive design with
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+2. Open the index.html file in your preferred browser and Start using the Todo App!
+
